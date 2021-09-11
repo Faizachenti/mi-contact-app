@@ -14,10 +14,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import javax.transaction.Transactional;
 
 @Service
-@Transactional
 public class UserService  {
     private JSONArray usersData = new JSONArray();
     private JSONArray contactsData = new JSONArray();
