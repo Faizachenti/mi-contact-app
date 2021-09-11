@@ -7,7 +7,6 @@ import com.micontact.app.model.User;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
-
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;

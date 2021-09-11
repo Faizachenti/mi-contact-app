@@ -43,8 +43,14 @@ public class UserController {
     }
 
     @PostMapping("/register")
-    public void register(@RequestBody User user) throws IOException {
-        userService.saveUser(user);
+    public String register(@RequestBody User user) throws IOException {
+        try {
+            userService.saveUser(user);
+            return "Successfully registered account";
+        } catch (Exception e) {
+            System.out.print(e.toString());
+        }
+        return "Failed to create account";
     }
 
     @PostMapping("/login")
