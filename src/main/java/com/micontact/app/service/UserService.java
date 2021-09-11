@@ -77,26 +77,18 @@ public class UserService  {
 
     private void persistUsersData() throws IOException{
         BufferedWriter writer = Files.newBufferedWriter(Paths.get("users.json"));
-        System.out.println(usersData.toString());
         Jsoner.serialize(usersData.toString(), writer);
     }
 
     private void persistContactsData() throws IOException{
         BufferedWriter writer = Files.newBufferedWriter(Paths.get("contacts.json"));
-        System.out.println(contactsData.toString());
         Jsoner.serialize(contactsData.toString(), writer);
     }
 
     public User getUserByUsername(String username) {
-        System.out.println(usersData);
         for (int i = 0; i < usersData.length(); i++) {
             JSONObject item = usersData.getJSONObject(i);
-            System.out.println(item);
-            System.out.println(item.getString("username"));
-            System.out.println(username);
             if (item.getString("username").equals(username)) {
-                System.out.println("SOOOOO TRUE");
-                // String name, String username, String phone, String password
                 User user = new User(
                     item.getString("name"), 
                     item.getString("username"), 
@@ -105,8 +97,6 @@ public class UserService  {
                 );
                 user.setPassword(item.getString("password"));
                 return user;
-            } else {
-                System.out.println("NO NO NO NO");
             }
         }
         return null;
@@ -114,6 +104,9 @@ public class UserService  {
 
     public String login(LoginPayload loginPayload) {
         User user = this.getUserByUsername(loginPayload.username);
+        if (user == null) {
+            return "User detailas are wrong";
+        }
         if (user.getPassword().equals(loginPayload.password)){
             return new JWTService().createJWT(loginPayload);
         }

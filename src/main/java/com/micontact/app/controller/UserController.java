@@ -2,15 +2,11 @@ package com.micontact.app.controller;
 
 import com.micontact.app.model.Contact;
 import com.micontact.app.model.User;
-import com.micontact.app.service.JWTService;
 import com.micontact.app.service.UserService;
-
-import org.apache.tomcat.util.http.parser.MediaType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -64,7 +60,6 @@ public class UserController {
 
     @RequestMapping(path = "/contacts/add/batch/{id}", method = RequestMethod.POST, consumes = { org.springframework.http.MediaType.MULTIPART_FORM_DATA_VALUE })
     public void addContacts(@ModelAttribute Contact[] contacts, @PathVariable String id) throws IOException {
-        System.out.println(contacts);
         userService.saveUserContacts(contacts, id);
     }
 
