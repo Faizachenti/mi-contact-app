@@ -1,0 +1,266 @@
+.mediaViewInfo {
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Myriad Pro;
+}
+:root {
+	--web-view-ids: Login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Login_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	font-family: Myriad Pro;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: Myriad Pro;
+}
+.Rectangle_1_Class {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1564px;
+	height: 107px;
+	left: 374px;
+	top: 0px;
+}
+.Rectangle_2_Class {
+	fill: rgba(244,244,244,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 613px;
+	height: 716px;
+	left: 841px;
+	top: 238px;
+}
+.Login_o_Class {
+	left: 1068px;
+	top: 339px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	color: rgba(112,112,112,1);
+}
+.User_ID_Class {
+	left: 912px;
+	top: 512px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(112,112,112,1);
+}
+.Password_Class {
+	left: 912px;
+	top: 641px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(112,112,112,1);
+}
+.Line_1_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 348.5px;
+	height: 0.5px;
+	left: 1033.5px;
+	top: 537.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_2_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 343.5px;
+	height: 0.5px;
+	left: 1038.5px;
+	top: 663.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_3_Class {
+	fill: rgba(105,199,227,1);
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 79px;
+	left: 986px;
+	top: 801px;
+}
+.Login_u_Class {
+	left: 1118px;
+	top: 827px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.If_you_do_not_have_account_ple_Class {
+	left: 1072px;
+	top: 691px;
+	position: absolute;
+	overflow: visible;
+	width: 311px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(112,112,112,1);
+}
+.Rectangle_4_Class {
+	fill: rgba(12,61,75,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 374px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+.Group_15_Class {
+	position: absolute;
+	width: 84.035px;
+	height: 90px;
+	left: 144.983px;
+	top: -0.5px;
+	overflow: visible;
+}
+.Group_14_Class {
+	position: absolute;
+	width: 19.853px;
+	height: 27.647px;
+	left: 0px;
+	top: 28.914px;
+	overflow: visible;
+}
+.Path_6_Class {
+	fill: rgba(255,255,255,1);
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 3.534px;
+	height: 22.772px;
+	left: 0px;
+	top: 4.584px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_7_Class {
+	fill: rgba(105,199,227,1);
+}
+.Path_7 {
+	overflow: visible;
+	position: absolute;
+	width: 3.563px;
+	height: 6.885px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_8_Class {
+	fill: rgba(255,255,255,1);
+}
+.Path_8 {
+	overflow: visible;
+	position: absolute;
+	width: 14.88px;
+	height: 19.418px;
+	left: 4.973px;
+	top: 8.228px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ontact_Class {
+	left: 36.035px;
+	top: 33.362px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+}
+.C_Class {
+	left: 21.293px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue, Myriad Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 76px;
+	color: rgba(255,255,255,1);
+}
