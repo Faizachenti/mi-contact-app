@@ -33,6 +33,16 @@
 	--web-enable-deep-linking: true;
 	--web-page-font: Myriad Pro;
 }
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
 .Rectangle_1_Class {
 	fill: rgba(255,255,255,1);
 }
@@ -1168,6 +1178,10 @@
 	left: 1560px;
 	top: 618px;
 	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Bill_Charge.html;
+	cursor: pointer;
 }
 .Rectangle_6_dd_Class {
 	fill: rgba(12,61,75,1);

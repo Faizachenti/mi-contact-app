@@ -35,6 +35,16 @@
 	--web-enable-deep-linking: true;
 	--web-page-font: Myriad Pro;
 }
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
 .Rectangle_1_Class {
 	fill: rgba(255,255,255,1);
 }
@@ -168,31 +178,31 @@
 }
 .Enter_your_momo_number_Class {
 	left: 913px;
-	top: 649px;
+	top: 645px;
 	position: absolute;
 	overflow: visible;
-	width: 164px;
+	width: 218px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Helvetica Neue, Myriad Pro;
 	font-style: italic;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 16px;
 	color: rgba(199,199,199,1);
 	letter-spacing: 1px;
 }
 .Select_Network_type_Class {
 	left: 913px;
-	top: 718px;
+	top: 714px;
 	position: absolute;
 	overflow: visible;
-	width: 131px;
+	width: 174px;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Helvetica Neue, Myriad Pro;
 	font-style: italic;
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 16px;
 	color: rgba(199,199,199,1);
 	letter-spacing: 1px;
 }
@@ -383,6 +393,10 @@
 	left: 1061px;
 	top: 803px;
 	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Receipt.html;
+	cursor: pointer;
 }
 .Rectangle_6_Class {
 	fill: rgba(105,199,227,1);
