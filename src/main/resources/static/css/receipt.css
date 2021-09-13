@@ -1,0 +1,298 @@
+/* screen - receipt */
+
+.receipt {
+  background-color: var(--white);
+  height: 1024px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.receipt .rectangle-10-nBjPM1 {
+  background-color: #f2f3f5;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 537px;
+  left: 425px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 223px;
+  width: 907px;
+}
+
+.receipt .rectangle-2-nBjPM1 {
+  background-color: var(--tarawera);
+  height: 1024px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 279px;
+}
+
+.receipt .rectangle-1-nBjPM1 {
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px #00000040;
+  height: 67px;
+  left: 279px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1161px;
+}
+
+.receipt .logout-nBjPM1 {
+  background-color: transparent;
+  height: 19px;
+  left: 1282px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 19px;
+  width: auto;
+}
+
+.receipt .paybutton-nBjPM1 {
+  background-color: transparent;
+  height: 49px;
+  left: 974px;
+  position: absolute;
+  top: 820px;
+  width: 201px;
+}
+
+.receipt .rectangle-4-yxXeiD {
+  background-color: var(--viking);
+  height: 49px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 199px;
+}
+
+.receipt .print-yxXeiD {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+  height: 23px;
+  left: 23px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 155px;
+}
+
+.receipt .line-1-nBjPM1 {
+  background-color: transparent;
+  height: 1px;
+  left: 281px;
+  position: absolute;
+  top: 68px;
+  width: 1159px;
+}
+
+.receipt .user-name-nBjPM1 {
+  background-color: transparent;
+  height: 26px;
+  left: 549px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 416px;
+  width: auto;
+}
+
+.receipt .x000-000-0000-nBjPM1 {
+  background-color: transparent;
+  height: 26px;
+  left: 549px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 460px;
+  width: auto;
+}
+
+.receipt .total-ghc-nBjPM1 {
+  background-color: transparent;
+  height: 26px;
+  left: 549px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 561px;
+  width: auto;
+}
+
+.receipt .bill-number-nBjPM1 {
+  background-color: transparent;
+  height: 26px;
+  left: 549px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  width: auto;
+}
+
+.receipt .imc0002233-nBjPM1 {
+  background-color: transparent;
+  color: #797777;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: 26px;
+  left: 711px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  width: auto;
+}
+
+.receipt .x2000-nBjPM1 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+  height: 42px;
+  left: 1064px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: right;
+  top: 553px;
+  width: auto;
+}
+
+.receipt .image-1-nBjPM1 {
+  background-color: transparent;
+  height: 67px;
+  left: 549px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 285px;
+  width: 99px;
+}
+
+.receipt .line-3-nBjPM1 {
+  background-color: transparent;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  top: 66px;
+  width: 279px;
+}
+
+.receipt .logo-nBjPM1 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 43px;
+  left: 107px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  width: 64px;
+}
+
+.receipt .user-id-000-000-0000-nBjPM1 {
+  background-color: transparent;
+  height: 45px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 116px;
+  width: 190px;
+}
+
+.receipt .edit-profile-nBjPM1 {
+  background-color: transparent;
+  height: 45px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 161px;
+  width: 190px;
+}
+
+.receipt .add-contact-nBjPM1 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 45px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 206px;
+  width: 190px;
+}
+
+.receipt .payment-receipt-nBjPM1 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+  height: 97px;
+  left: 792px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: right;
+  top: 271px;
+  width: 365px;
+}
+
+.receipt .line-4-nBjPM1 {
+  background-color: transparent;
+  height: 1px;
+  left: 549px;
+  position: absolute;
+  top: 516px;
+  width: 606px;
+}
+
+.receipt .line-5-nBjPM1 {
+  background-color: transparent;
+  height: 1px;
+  left: 549px;
+  position: absolute;
+  top: 636px;
+  width: 606px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/add.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="add" />
+    <div class="container-center-horizontal">
+      <form class="add screen" name="form4" action="form4" method="post">
+        <div class="rectangle-2-XnUIER"></div>
+        <div class="rectangle-1-XnUIER"></div>
+        <div class="contact1-XnUIER">
+          <div class="rectangle-6-opK1u4 border-1px-silver"></div>
+          <img class="nounexpand1369881-2-opK1u4" src="img/noun-expand-1369881-2@2x.svg" />
+          <img class="nounedit857941-2-opK1u4" src="img/noun-edit-857941-2@2x.svg" />
+          <img class="noun-delete1123162-2-opK1u4" src="img/noun-delete-1123162-2@2x.svg" />
+          <div class="contact-name-opK1u4 valign-text-middle roboto-normal-black-16px">Contact’ Name</div>
+        </div>
+        <div class="contact1-DFxb5C">
+          <div class="rectangle-6-cS1Ekt border-1px-silver"></div>
+          <img class="nounexpand1369881-2-cS1Ekt" src="img/noun-expand-1369881-2@2x.svg" />
+          <img class="nounedit857941-2-cS1Ekt" src="img/noun-edit-857941-2@2x.svg" />
+          <img class="noun-delete1123162-2-cS1Ekt" src="img/noun-delete-1123162-2@2x.svg" />
+          <div class="contact-name-cS1Ekt valign-text-middle roboto-normal-black-16px">Contact’ Name</div>
+        </div>
+        <div class="logout-XnUIER valign-text-middle roboto-normal-black-16px">Logout</div>
+        <a href="javascript:SubmitForm('form4')">
+          <div class="addbutton-XnUIER">
+            <div class="rectangle-4-ede341"></div>
+            <div class="bill-out-ede341 valign-text-bottom roboto-normal-white-16px">Bill Out</div>
+          </div></a
+        ><img class="line-1-XnUIER" src="img/line-1@1x.svg" />
+        <div class="rectangle-7-XnUIER"></div>
+        <div class="savebutton-XnUIER">
+          <div class="rectangle-4-clN9Pk"></div>
+          <div class="save-clN9Pk valign-text-bottom roboto-normal-white-16px">Save</div>
+        </div>
+        <div class="name-XnUIER valign-text-middle roboto-normal-black-16px">Name</div>
+        <div class="number-XnUIER valign-text-middle roboto-normal-black-16px">Number</div>
+        <img class="line-3-XnUIER" src="img/line-3@2x.svg" />
+        <a href="dashboard.html"><img class="logo-XnUIER" src="img/logo@2x.png" /> </a>
+        <p class="user-id-000-000-0000-XnUIER valign-text-middle roboto-normal-white-16px">User ID: 000 000 0000</p>
+        <div class="edit-profile-XnUIER valign-text-middle roboto-normal-white-16px">Edit Profile</div>
+        <div class="add-contact-XnUIER valign-text-middle">Add Contact</div>
+        <input class="nameinput-XnUIER" name="3_15635" placeholder="Enter Name" type="text" required /><input
+          class="numberinput-XnUIER"
+          name="3_15644"
+          placeholder="Number_input"
+          type="text"
+        />
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="login" />
+    <div class="container-center-horizontal">
+      <form class="login screen" name="form1" action="form1" method="post">
+        <div class="rectangle-5-b8DrbD"></div>
+        <div class="forgot-password-b8DrbD valign-text-bottom roboto-normal-white-12px">
+          <span
+            ><span class="span0-MtHxgG roboto-normal-black-12px">Forgot </span
+            ><span class="span1-MtHxgG">password</span>
+          </span>
+        </div>
+        <div class="user-id-b8DrbD roboto-normal-black-16px">User ID</div>
+        <div class="password-b8DrbD roboto-normal-black-16px">Password</div>
+        <div class="rectangle-1-b8DrbD"></div>
+        <h1 class="title-b8DrbD">Login</h1>
+        <a href="register.html"
+          ><p class="if-you-do-not-h-ccount-register-b8DrbD valign-text-bottom roboto-normal-white-12px">
+            <span
+              ><span class="span0-phZmqs roboto-normal-black-12px">If you do not have account, </span
+              ><span class="span1-phZmqs">Register</span>
+            </span>
+          </p></a
+        ><a href="javascript:SubmitForm('form1')">
+          <div class="loginbutton-b8DrbD">
+            <div class="rectangle-4-DUR9dy"></div>
+            <a href="http://Dashboard" onclick="window.event.stopPropagation()" target="_blank"
+              ><div class="login-DUR9dy valign-text-bottom roboto-normal-white-16px">Login</div></a
+            >
+          </div></a
+        ><input class="input-b8DrbD" name="3_15159" placeholder="Enter user ID" type="text" required /><input
+          class="input-6IRkXs"
+          name="3_15167"
+          placeholder="Input"
+          type="password"
+          required
+        />
+        <div class="rectangle-2-b8DrbD"></div>
+        <img class="logo-b8DrbD" src="img/logo@2x.png" />
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>

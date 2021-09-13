@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/register.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="register" />
+    <div class="container-center-horizontal">
+      <form class="register screen" name="form2" action="form2" method="post">
+        <div class="rectangle-2-Qolay1"></div>
+        <div class="rectangle-5-Qolay1"></div>
+        <div class="name-Qolay1 roboto-normal-black-16px">Name</div>
+        <div class="phone-Qolay1 roboto-normal-black-16px">Phone</div>
+        <div class="password-Qolay1 roboto-normal-black-16px">Password</div>
+        <div class="rectangle-1-Qolay1"></div>
+        <div class="register-Qolay1">Register</div>
+        <a href="login.html"
+          ><p class="if-you-do-not-h-ccount-register-Qolay1 valign-text-bottom roboto-normal-white-12px">
+            <span
+              ><span class="span0-EUEb6X roboto-normal-black-12px">If you do not have account, </span
+              ><span class="span1-EUEb6X">Register</span>
+            </span>
+          </p></a
+        ><a href="javascript:SubmitForm('form2')">
+          <div class="loginbutton-Qolay1">
+            <div class="rectangle-4-UblKKm"></div>
+            <div class="register-UblKKm valign-text-bottom roboto-normal-white-16px">Register</div>
+          </div></a
+        ><input class="input-Qolay1" name="3_15251" placeholder="Enter name" type="text" required /><input
+          class="input-SVfk6o"
+          name="3_15252"
+          placeholder="Enter number"
+          type="number"
+          required
+        /><input class="input-8KUxSO" name="3_15253" placeholder="Enter password" type="password" required /><img
+          class="logo-Qolay1"
+          src="img/logo@2x.png"
+        />
+      </form>
+    </div>
+    <script>
+      /* Copyright (c) 2016 Tobias Buschor https://goo.gl/gl0mbf | MIT License https://goo.gl/HgajeK */
+
+      if (!HTMLFormElement.prototype.reportValidity) {
+        HTMLFormElement.prototype.reportValidity = function () {
+          if (this.checkValidity()) return true;
+          var btn = document.createElement("button");
+          this.appendChild(btn);
+          btn.click();
+          this.removeChild(btn);
+          return false;
+        };
+      }
+
+      function SubmitForm(form_name) {
+        var form = document.getElementsByName(form_name)[0];
+        if (form.reportValidity()) {
+          form.submit();
+          if (window.submitted) window.submitted();
+        }
+      }
+    </script>
+  </body>
+</html>
